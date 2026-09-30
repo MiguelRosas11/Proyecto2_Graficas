@@ -1,0 +1,5 @@
+/target/
+/captures/
+/assets/textures/*.ppm
+/assets/textures/*.alpha
+/assets/textures/source.txt

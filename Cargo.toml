@@ -1,0 +1,11 @@
+[package]
+name = "voxel-diorama"
+version = "0.3.0"
+edition = "2024"
+description = "Diorama de voxeles con raytracing en CPU y sin crates externos"
+
+[dependencies]
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
