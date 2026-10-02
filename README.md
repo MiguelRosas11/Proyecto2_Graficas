@@ -5,6 +5,10 @@ con azalea, enredaderas de bayas luminosas y dos antorchas emerge de una laguna.
 El borde está al nivel del agua y el árbol un bloque por encima. Rocas bajas con minerales clásicos
 aportan acentos de color. El fondo es negro, sin minerales flotantes ni paredes.
 
+## Video del diorama
+
+[Ver el video del santuario de azalea en YouTube](https://youtu.be/UlH-7Wrn1mE)
+
 ## Ejecutar
 
 ```powershell
@@ -122,8 +126,7 @@ conserva una regresión del bloqueo por redondeo al girar. La prueba orbital
 renderiza 1,440 frames (dos vueltas) con el agua animada. La prueba de ventana
 espera a completar el refinamiento y guarda `captures/window-smoke.bmp`.
 
-Pendiente para la entrega: grabar el video e incorporarlo a este README y
-mantener la entrega actualizada en GitHub. Proyecto educativo no afiliado a Mojang / Microsoft.
+Proyecto educativo no afiliado a Mojang / Microsoft.
 
 
 El informe actualizado de rendimiento y las comparaciones controladas están en [docs/performance.md](docs/performance.md). El render reparte trabajos de cuatro filas entre los hilos y reutiliza sumas del resplandor. La escena actual tiene borde de isla al nivel del agua, centro un bloque arriba, sin camino sobre el lago, con plantas y antorchas en las orillas.
